@@ -1,0 +1,30 @@
+# CMake and native build artifacts
+/build/
+/build-*/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/Testing/
+/compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+
+# Python research tooling and editor state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+.DS_Store
+
+# Local ephemerides/reference data are not implicitly committed.
+# Any golden fixture added later should carry hashes and full provenance.
